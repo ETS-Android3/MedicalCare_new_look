@@ -1,0 +1,4 @@
+com/medicalcare/ExampleInstrumentedTest.java
+ com.medicalcare.ExampleInstrumentedTest
+com/medicalcare/test/BuildConfig.java
+ com.medicalcare.test.BuildConfig

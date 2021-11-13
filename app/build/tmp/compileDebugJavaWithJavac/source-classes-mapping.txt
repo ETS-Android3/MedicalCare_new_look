@@ -1,0 +1,30 @@
+com/medicalcare/MainMenuActivity.java
+ com.medicalcare.MainMenuActivity
+com/medicalcare/StatusActivityTemp.java
+ com.medicalcare.StatusActivityTemp
+com/medicalcare/AboutActivity.java
+ com.medicalcare.AboutActivity
+com/medicalcare/SettingsActivity.java
+ com.medicalcare.SettingsActivity
+ com.medicalcare.SettingsActivity$1
+com/medicalcare/InformationActivity.java
+ com.medicalcare.InformationActivity
+com/medicalcare/PersonalStatus.java
+ com.medicalcare.PersonalStatus
+com/medicalcare/BuildConfig.java
+ com.medicalcare.BuildConfig
+com/medicalcare/NewUserActivity.java
+ com.medicalcare.NewUserActivity
+ com.medicalcare.NewUserActivity$1
+com/medicalcare/StatusActivity.java
+ com.medicalcare.StatusActivity
+ com.medicalcare.StatusActivity$ConnectThread
+ com.medicalcare.StatusActivity$ConnectedThread
+ com.medicalcare.StatusActivity$ConnectedThread$1
+com/medicalcare/RecordsActivity.java
+ com.medicalcare.RecordsActivity
+com/medicalcare/DBHelper.java
+ com.medicalcare.DBHelper
+com/medicalcare/MainActivity.java
+ com.medicalcare.MainActivity
+ com.medicalcare.MainActivity$1
