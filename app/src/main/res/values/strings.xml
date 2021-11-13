@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MedicalCare</string>
+    <string name="title_activity_status">Status</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="temprature">
+        Normal body temperature varies by person, age, activity, and time of day. The average normal body temperature is generally accepted as 98.6°F (37°C). Some studies have shown that the "normal" body temperature can have a wide range, from 97°F (36.1°C) to 99°F (37.2°C).\n \n
+        A temperature over 100.4°F (38°C) most often means you have a fever caused by an infection or illness.\n \n
+        Body temperature normally changes throughout the day.
+    </string>
+    <string name="oxygen">
+        Blood oxygen level is the amount of oxygen circulating in the blood. Most of the oxygen is carried by red blood cells, which collect oxygen from the lungs and deliver it to all parts of the body. \n \n
+        The body closely monitors blood oxygen levels to keep them within a specific range, so that there is enough oxygen for the needs of every cell in the body. \n \n
+        A person’s blood oxygen level is an indicator of how well the body distributes oxygen from the lungs to the cells, and it can be important for people’s health.
+    </string>
+    <string name="hbpm">
+        Heart rate, also known as pulse, is the number of times a person\'s heart beats per minute. Normal heart rate varies from person to person, but a normal range for adults is 60 to 100 beats per minute, according to the Mayo Clinic. \n \n
+        However, a normal heart rate depends on the individual, age, body size, heart conditions, whether the person is sitting or moving, medication use and even air temperature. Emotions can affect heart rate; for example, getting excited or scared can increase the heart rate.
+    </string>
+</resources>

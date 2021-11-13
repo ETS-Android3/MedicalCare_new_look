@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyish_050"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include android:id="@+id/my_toolbar" layout="@layout/main_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Sign in"
+                android:textColor="@color/yellowish_700"
+                android:textSize="30dp"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:paddingLeft="5dp"
+                android:inputType="text"
+                />
+            <!--android:background="@drawable/edit_text_border"-->
+
+            <EditText
+                android:id="@+id/passowrd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:hint="Password"
+                android:paddingLeft="5dp"
+                android:inputType="textPassword"
+                />
+            <!--android:background="@drawable/edit_text_border"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:text="Create new user"
+                android:layout_gravity="left"
+                android:onClick="NewUser"/>
+
+            <Button
+                android:id="@+id/login"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/skyish_400"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
